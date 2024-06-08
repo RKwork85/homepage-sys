@@ -3,7 +3,7 @@
         <section id='a-box'>
             <div class="profile-img" :style="{opacity:1-state.scrollHeight*0.05}">
                 <img class="profile-logo"
-                     :src="setting.websiteInfo.avatar"
+                     src="../../../assets/img/rk.jpg"
                      alt="logo">
             </div>
             <h2 class='a-second-title' :style="{opacity:1-state.scrollHeight*0.05}">Hello! I'm {{setting.websiteInfo.name || 'ZHOU YI'}}</h2>
